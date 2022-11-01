@@ -21,7 +21,6 @@ const PortfolioItem = ({ title, stack, projectUrl }) => {
         >
           {/* {stack.map(item => ( */}
           <span
-            key={item}
             className="inline-block px-2 py-1 font-semibold border-2 border-stone-900 dark:border-white rounded-md"
           >
             {stack}
