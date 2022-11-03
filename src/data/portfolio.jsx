@@ -1,6 +1,6 @@
 import nogginyThumbnail from '../assets/nogginy-tn_adobe_express.svg';
-import simpleTweetThumbnail from '../assets/SimpleTweet_adobe_express.svg';
-import flixsterThumbnail from '../assets/Flixster_adobe_express.svg';
+import simpleTweetThumbnail from '../assets/SimpleTweet.png';
+import portfolioThumbnail from '../assets/portfolio_adobe_express.svg';
 
 const items = [
   {
@@ -16,7 +16,7 @@ const items = [
   },
   {
     title: "SimpleTweet",
-    thummbnail: simpleTweetThumbnail,
+    thumbnail: simpleTweetThumbnail,
     stack: [
       "Java",
       "AndroidStudios",
@@ -26,15 +26,15 @@ const items = [
     projectUrl: "https://github.com/tejusunkara/SimpleTweet"
   },
   {
-    title: "Flixter",
-    thummbnail: flixsterThumbnail,
+    title: "Portfolio",
+    thumbnail: portfolioThumbnail,
     stack: [
-      "Java",
-      "AndroidStudios",
-      "Android Async HTTP",
-      "Glide",
+      "ReactJS",
+      "TailwindCSS",
+      "Vite",
+      "Vercel"
     ],
-    projectUrl: "https://github.com/tejusunkara/Flixster"
+    projectUrl: "https://github.com/tejusunkara/dev-portfolio"
   },
 ];
 
