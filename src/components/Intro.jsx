@@ -10,7 +10,7 @@ const Intro = () => {
         className="text-center"
       >
         <h1
-          className="text-4xl md:text-7xl dark:text-white mb-1 md:mb-3 font-bold"
+          className="text-4xl md:text-7xl dark:text-black mb-1 md:mb-3 font-bold"
         >
           Venkata
         </h1>
